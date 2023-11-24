@@ -11,6 +11,8 @@ export default function App() {
     return (
       <Card
         key={item.id}
+        props={item}
+
         // img={item.coverImg}
         // rating={item.stats.rating}
         // reviewCount={item.stats.reviewCount}
